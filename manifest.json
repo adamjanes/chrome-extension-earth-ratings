@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Earth Ratings Inline",
+  "version": "0.1.0",
+  "description": "Adding Earth Ratings to Amazon pages.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.min.js", "rater.js", "content.js"],
+    "matches": ["https://www.amazon.de/*"]
+  }]
+
+}
